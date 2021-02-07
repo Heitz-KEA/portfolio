@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta name="robots" content="noindex">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Heitz</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="pic/fav.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header1"></div>
+        <div class="header2"></div>
+        <div class="header_text">
+            <h1>Heitz</h1>
+            <p>Velkommen til min portfølje.</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="navbar">
+            <button class="btn" onclick="filterSelection('web')">Web</button>
+            <button class="btn" onclick="filterSelection('ux')">UX</button>
+            <button class="btn" onclick="filterSelection('animation')">Animation</button>
+            <button class="btn" onclick="filterSelection('indhold')">Indhold</button>
+        </div>
+    </nav>
+
+    <main>
+        <div id="pagewrap">
+            <section id="about">
+                <div class="col">
+                    <img src="pic/me.png" alt="Me">
+                </div>
+                <div class="col">
+                    <h2>Oh, hey!</h2>
+                    <p>Mit navn er Heidi Grandal.
+                        <br>Jeg studerer multimediedesign på KEA, hvor jeg er færdig med mit 1 .semester.
+                        <br><br> Som multimediedesigner er jeg meget interesseret i kodning og programmering. Før jeg begyndte at studere, kodede jeg små spil og hjalp folk med at opsætte hjemmesider.
+                        <br>Under min uddannelse er jeg interesseret i at udvikle mig kreativt - at blive bedre til at designe og fremstille grafiske projekter.
+
+                        <br><br> I det daglige bor jeg sammen med min kæreste og min kat, mr. Missemand, i Vanløse. <br> Når mit helbred ikke er ved at tage livet af mig, holder jeg af at sidde foran pc'en, at tegne og spille, og diverse kreative sysler.
+
+                        <br><br> Her på siden kan du se mine projekter fra min uddannelses 1.semester.
+                        <br> Scroll ned og se det hele, eller klik på knapperne herover for at se et bestemt tema.
+
+
+                    </p>
+                </div>
+            </section>
+
+            <section id="work">
+
+                <div class="filterDiv web">
+                    <div class="text1">
+                        <h2>Tema<br>Grundlæggende web</h2>
+                        <div class="des">
+                            <p>Dette tema handler om de grundlæggende værktøjer i multimediedesigner uddannelsen.<br>
+                                Vi har lærte at analysere stile og grafiske elementer, lært at arbejde i adobe-programmerne og lært at kode simple, responsive hjemmesider i sprogene HTML og CSS.
+
+                                <br><br>
+                                Vi skulle gruppevis analysere en stil, i mit tilfælde "flat art", og skulle herefter enkeltvist sætte en hjemmeside op efter et udleveret wireframe.
+                                <br> Vi måtte selv vælge emne og indhold.
+                                <br> Herunder viser jeg nogle af de trin og metoder som jeg brugte til at fremstille min hjemmeside.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="section_wrapper">
+                        <div class="col">
+                            <img src="pic/t1/Mood.svg" alt="IMG">
+                            <div class="des">
+                                <h3>Visualisering</h3>
+                                <p>Min gruppe fortog en analyse af stilen "flat art".
+                                    <br> Herefter fremstillede jeg et moodboard, til at visuallisere indeholdet på min side. Her med fokus på dyr, information og familie.
+                                    <br><br> Da jeg gik i gange med at kode, brugte jeg også et style tile til at holde styr på stil, udtryk og indhold på min side.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <img src="pic/t1/wireframe.svg" alt="IMG">
+                            <div class="des">
+                                <h3>Wireframe</h3>
+                                <p>Vi fik udleveret en wireframe, som viste det skelet vores hjemmeside skulle opbygges efter.
+                                    <br><br> Vi brugte Adobe XD til at fremstille en prototype af wireframen, hvor vi kunne teste indhold, farver og stil.
+                                    <br> Her designede jeg med stilen flatart i tankerne, simple former og stærke farver.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <img src="pic/t1/Style.svg" alt="IMG">
+                            <div class="des">
+                                <h3>Favikon | Fonts | Splash</h3>
+                                <p> Jeg beyndte at fremstille indhold til at underbygge min sides identitet.
+                                    <br><br> I adrobe fremstillede jeg et favikon, et kaninhoved, og et splashbillede.<br>Her forsøgte jeg at opstille billedet efter en omvendt trkant, for at stilen ikke blev alt for statisk.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <img src="pic/t1/Styles.svg" alt="IMG">
+                            <div class="des">
+                                <h3>HTML | CSS</h3>
+                                <p>Jeg opsatte sidens indhold i HTML, og stylede det med CSS.<br><br>
+
+                                    Undervejs brugte jeg en validator til at tjekke at min kode validerede.</p>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <img src="pic/t1/Responsiv.svg" alt="IMG">
+                            <div class="des">
+                                <h3>Responsivt Design</h3>
+                                <p>Jeg gjorde siden responsiv så dens indhold tilpasser sig brugerens skærmstørrelse.<br><br>
+
+                                    Siden ænderer layout, billede- og skræftstørrellse, og skifter elementer alt efter hvor skærmstørrelse siden vises på. <br> Hertil brugte jeg især grids, flexboix og media queries.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="text2">
+                                <a href="http://heitz.dk/kea/eksamen/Kaninguide/">
+                                    <img src="pic/t1/Site.svg" alt="LINK">
+                                    <h2>KaninGuide</h2>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filterDiv ux">
+                    <div class="text1">
+
+                        <h2>Tema <br> Grundlæggende UX</h2>
+                        <div class="des">
+                            <p>Dette tema handler om User eXperience, den gensidige påvirkning mellem bruger og brugergrænseflader.
+                                <br>Man skal forstå dette samspil, så man kan træffe designvalg baseret på konkrete indsigter og reelle behov hos brugeren.
+                                <br><br>Vi har lært at foretage research og forskellige måder at prototype på, herunder UI kits, samt metoder til at designe, teste og pitche sine idéer.
+
+                                <br> Herunder viser jeg nogle af de trin og metoder som jeg brugte til at fremstille min hjemmeside.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="section_wrapper">
+                        <div class="col">
+                            <img src="pic/t2/mood.svg" alt="IMG">
+                            <div class="des">
+                                <h3>Research</h3>
+                                <p>Jeg brugte desk-, oberservations- og interveiw-research til at danne mig et overblik over brugerbehov og problemstillinger.
+                                    <br><br> Ud fra dette opstillede jeg et mood board til at visualisere mit endelig produkt, og de behov jeg skulle indarbejde.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <img src="pic/t2/proto1.svg" alt="IMG">
+                            <div class="des">
+                                <h3>Prototyping - Low fidelity</h3>
+                                <p>Jeg fremstillede en prototype af min side med pen og papir. <br> Sammen med resten af klassen, fortog jeg et design sprint.
+                                    <br><br> Her var især "Crazy 8s" nytte til at få gang i idé generingen.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <img src="pic/t2/charts.svg" alt="IMG">
+                            <div class="des">
+                                <h3>Sitemap | Flowchart </h3>
+                                <p>Jeg fremstillede først et sitemap, som visualliserer opbygningen af de sider og kategorier som findes på min side.
+                                    <br>Herefter brugte jeg et flowchart til at visuallisere kundens rejse gennem webshoppen.
+                                    <br><br> Jeg brugte disse værktøjer til at streamline min side, og tilpasse den til sidens brugerer.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <img src="pic/t2/KIT.svg" alt="IMG">
+                            <div class="des">
+                                <h3>Prototyping - High fidelity</h3>
+                                <p>Jeg prototypede siden i høj kvalitet med UI-Kits.
+                                    <br><br>Denne prototype skulle være så tæt på det færdie design som muligt, og viser sidens udstryk, stil og inbdhold.
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="col">
+                            <img src="pic/t2/text.svg" alt="LINK">
+                            <div class="des">
+                                <h3>Copywriting | Microcopy</h3>
+                                <p>Jeg brugte copywriting til at forfatte tekst som gør siden personlig, og appalere til mit kunde-segment. F.eks "ahoy, adventurers" i stedet for "velkommen".
+                                    <br><br> Jeg brugte microcopy til at hjælpe med at guide min kunder gennem sidens funktioner. f.eks "try dragon" i søgefeltet.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="text2">
+                                <a href="pic/t2/shop.pdf">
+                                    <img src="pic/t2/Shirt.svg" alt="LINK">
+                                    <h2>T-shirt Shop</h2>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filterDiv animation">
+                    <div class="text1">
+                        <h2>Tema <br> Grundlæggende animation</h2>
+                        <div class="des">
+                            <p>Dette tema handler om sproget javascript som bruges til at gøre hjemmesider interaktive og dynamiske. Det handler desuden om CSS animationer som bruges til at animere CSS elementer.<br><br>
+
+                                Vi har lært om javascript ved at fremstille et spil om et selvvalgt emne, som er skrevet i HTML, CSS og javascript.<br> Undervejs lærte vi også om flowcharts og state machine diagrams.<br>
+                                Herunder viser jeg nogle af de trin og metoder som jeg brugte til at fremstille mit spil.</p>
+                        </div>
+                    </div>
+
+                    <div class="section_wrapper">
+                        <div class="col">
+                            <img src="pic/t3/first.png" alt="IMG">
+                            <div class="des">
+                                <h3>Idégenerering</h3>
+                                <p>Jeg ønskede at lave mit spil i en blanding af "flat art" og "pixel stil". <br><br> Jeg brugte et mood board til at fremstille visuel inspiration.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <img src="pic/t3/charts%20%E2%80%93%203.svg" alt="IMG">
+                            <div class="des">
+                                <h3>Paper-prototype</h3>
+                                <p>Jeg tegnede spillets elementer på papir og klippede dem ud, så jeg kunne flytte rundt på dem.<br>På denne måde var det nemt at beslutte hvor de forskellige spil skulle fremstå visuelt, og hvor på skærmen de skulle placeres.</p>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <img src="pic/t3/assets.svg" alt="IMG">
+                            <div class="des">
+                                <h3>Assets</h3>
+                                <p>Jeg benyttede mig af adobeprogrammerne til at fremstille assets.
+                                    <br>Disse blev eksporeret i SVG, så de kan skales op og ned uden at blive pixelleret.<br><br> Jeg benyttedet mig af et grid og farvede kvadrater, til at fremstille assets i "pixel stil".
+                                </p>
+
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <img src="pic/t3/proto2%20%E2%80%93%201.svg" alt="IMG">
+                            <div class="des">
+                                <h3>Aktivitetsdiagram | Statemachinediagram</h3>
+                                <p>Jeg fremstillede et aktivitetsdiagram til at holde styr på funktionerne i spillet. Diagrammet viser hvad man kan fortage sig i spillet, og hvordan man kommer fra start til slut.
+
+                                    <br><br>Senere fremstillede jeg et statemachinediagram, som viste hvilke funktioner der er tilknyttet hvilken aktivtet i spillet.
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="col">
+                            <img src="pic/t3/code.svg" alt="IMG">
+                            <div class="des">
+                                <h3>Javascript | CSS Animations</h3>
+                                <p>Jeg opsatte først siden i HTML og CSS, med statisk indehold.<br>Herefter tilføjede jeg css animationer, så der kom liv i mine assets.
+
+                                    <br><br> Dernæst tilføjes der javascript, som gør mine assets interaktive.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="text2">
+                                <a href="http://heitz.dk/kea/eksamen/MisseMission/">
+                                    <img src="pic/t3/copy%20%E2%80%93%203.svg" alt="LINK">
+                                    <h2>MisseMission</h2>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filterDiv indhold">
+                    <div class="text1">
+                        <h2>Tema <br> Grundlæggende indhold</h2>
+                        <div class="des">
+                            <p>Dette tema handlede digitale indholdsløsninger. Vi har lært at fremstille video, og at optimalisering af billeder. I dette projekt skulle man, sammen med en gruppe, redesigne en hjemmeside med nyt indehold.
+
+
+                                Desværre for mig, stod jeg pludselig uden en gruppe og uden adgang til min gruppes arbejde. Jeg har derfor forsøgt at komme så langt som muligt på egen hånd, og fremstille noget jeg kan vise i denne portfølje.</p>
+                        </div>
+                    </div>
+
+                    <div class="section_wrapper">
+                        <div class="col">
+                            <img src="pic/t4/front.png" alt="Me">
+                            <div class="des">
+                                <a href="http://www.kaniner.dk/">
+                                    <h3>Danmarks kaninavlerforening</h3>
+                                </a>
+                                <p>Jeg valgte at redesigne hjemmesiden for Danmarks Kaninavlerforening, der er en gammel side som ikke er blevet opdateret i årevis. <br><br> En rundspørgelse, både blandt sidens brugere og folk som ikke før kendte til siden, bekræftede at siden blev opfattet som gammeldags, rodet og uoverskuelig for nye brugere.<br><br> Det spændende her, er at hjemmesiden ikke har en enkelt ejer som bestemmer over dens indhold, men et fællesskab af mennesker, som sammen bestemmer indeholdet.</p>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <img src="pic/t4/sitemap.svg" alt="Me">
+                            <div class="des">
+                                <h3>Sitemap | Visualisering</h3>
+                                <p>Jeg fremstillede et visuelt sitemap, hvor jeg sorterede sidens information ind i nye kategorier, så det hele blev mere overskueligt.<br><br> Herefter brugte jeg moodboard og styletile til at visullisere sidens redesign.<br>
+                                    Sidens brugere ønskede mere visuelt indeholde på siden, især store billeder, og flere "links der kasn få dig hurtigt frem", altså flere direkt links til funktioner og sektioner på siden.</p>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <img src="pic/t4/wireframe.svg" alt="Me">
+                            <div class="des">
+                                <h3>Redesign</h3>
+                                <p>Jeg brugte en wireframe til at visuallisere sidens redesign.<br> Her lagde jeg især vægt på at gøre siden mere
+                                    intuitiv og visuel.<br><br> Det var et ønske at sidens primær farve forblev blå.</p>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <img src="pic/t4/test.png" alt="Me">
+                            <div class="des">
+                                <h3>Measure | Lighthouse | Bert</h3>
+                                <p> Jeg benyttede en Bert test, fremstillet som en google formular, til at vudere hvordan folk opfattede mit redesign, her spurgte jeg igen både folk som kendte siden og folk som ikke kendte siden.<br><br>
+
+                                    Grundet førnævnte omstændigheder, kom jeg ikke i mål med en færdig side. Men var det sket, ville jeg have benyttet mig af lighthouse eller Measure fra web.div til optimere siden. </p>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <img src="pic/t4/buns.gif" alt="Me">
+                            <div class="des">
+                                <h3>Video</h3>
+                                <p>Jeg fremstillede en video om kaniner i premiere pro og sony vegas, som er det program jeg normalt benytter.
+
+                                    <br><br> Videoen skulle fortælle om glæden ved at holde kanin og være en del af at fælleskab. Grundet corona, er interview i storyboard, med lyden som overlæg.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="text2">
+                                <a href="pic/t4/Ekasmen%20-%20Tema1.pdf">
+                                    <img src="pic/t4/logo.svg" alt="Me">
+                                    <h2>Danmarks Kaninavlerforening</h2>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>Made by Heidi Grandal.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
